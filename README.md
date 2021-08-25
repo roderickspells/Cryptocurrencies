@@ -19,51 +19,51 @@ To complete this project there were 4 steps that needed to be completed.
 1. Preprocess the data
 - Show only Coins that are being mined and traded
 
-![image}(minedCrypto)
+![image}(https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/minedCrypto)
 
 - Clean data by removing null values, and cryptos without any mined coins
 
-![image](nullValues)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/nullValues)
 
 - Retain rows with Mined Coins
 
-![image](MinedCoins)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/MinedCoins)
 
 - Use get_dummies to convert categorical data into dummy or indicator variables
 
-![image](dummyValues)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/dummyValues)
 
 2. Reduce data dimensions using PCA
 
 - Use the Principal Component Analysis to reduce all factors into desired number of dimensions, which is 4
 
-![image](PCA)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/PCA)
 
 3. Cluster cryptocurriences using K-Means
 
 - Using the elbow curve to predict the values for the clusters
 
-![image](elbow)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/elbow)
 
 - K-means algorithm 
 
-![image](kmeans)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/kmeans)
 
-- Create New Dataframe that holds predicted clusted and crypto features
+- Create New Dataframe that holds predicted clusters and crypto features
 
-![image](newDataFrame)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/newDataFrame)
 
 4. Visualize Results
 
 - 3D Scatter Plot for PCAs used
-![image](3D)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/3D.png)
 - HvPlot to show all current tradable cryptocurriences
 
-![image](hvplotTable)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/hvplotTable)
 
-- Scatter plt to show "Coins Mined" vs "Total Coin Supply"
+- Scatter plot to show "Coins Mined" vs "Total Coin Supply"
 
-![image](hvtplot)
+![image](https://github.com/roderickspells/Cryptocurrencies/blob/main/Challenge/images/hvtplot)
 
 
 
